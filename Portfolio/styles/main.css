@@ -1,10 +1,7 @@
 /* 
-MOBILE FIRST DESIGN -- media queries can be found at the end of the styles 
+MOBILE FIRST
 */
 
-/* 
-GENERAL SETTINGS 
-*/
 
 body {
     margin: 0 0 0 0;
@@ -129,7 +126,7 @@ NAV BAR
 }
 
 /* 
-HERO AREA
+MIDDLE AREA
 */
 
 
@@ -352,7 +349,7 @@ FOOTER
   }
 
 /* 
-BIGGER SCREENS SETTINGS
+DESKTOP SETTINGS
 */
 
 @media only screen and (min-width: 768px) {
