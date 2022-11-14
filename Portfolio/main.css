@@ -6,8 +6,7 @@ body {
     background-color: rgb(255, 254, 253);
     color: rgb(43, 43, 43);
     font-size: 18px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
-    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;   
 }
 
 main {
@@ -35,7 +34,7 @@ NAV BAR
 */
 
 .top-bar {
-    background-image: url(flores.jpg);
+    background-image: url(styles/images/flores.jpg);
     height: 350px;
     padding: 10px;
     background-position-x: right;
@@ -54,9 +53,7 @@ NAV BAR
     border-radius: 2px;
     font-size: 0.95em;
     font-weight: 550;
-    float:inline-start
-
-    
+    float:inline-start    
 }
 
 .dropdown-top-button:hover{
@@ -116,12 +113,11 @@ MIDDLE AREA
 }
 
 .rounded-corners {
-    border-radius: 95px 95px 95px 95px;
+    border-radius: 100px 100px 100px 100px;
     max-width: 100%;
     height: auto;
     display: table;
-    margin: 0 auto;
-   
+    margin: 0 auto; 
 }
 
 .intro h1 {
@@ -303,8 +299,7 @@ FOOTER
     height: 60px;
     color: #74d4b3;
     font-size: 3em;
-    text-align:center
-
+    text-align:center;
     background-color: #fff;
     transition: all 0.5s ease;
   }
