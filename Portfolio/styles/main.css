@@ -1,8 +1,6 @@
 /* 
 MOBILE FIRST
 */
-
-
 body {
     margin: 0 0 0 0;
     background-color: rgb(255, 254, 253);
@@ -37,33 +35,17 @@ NAV BAR
 */
 
 .top-bar {
+    background-image: url(flores.jpg);
+    height: 350px;
+    padding: 10px;
+    background-position-x: right;
+    background-position-y: left;
+}
+
+.dropdown-top {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    background-image: url(flores.jpg);
-    background-position-x: right;
-    background-position-y: center;
-    background-size: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    padding: 10em;
 }
-
-.logo-area {
-    display: flex;
-    align-items: center;
-    column-gap: 1em;
-}
-
-.logo-area span {
-    font-size: 1em;
-}
-
-.logo-area img {
-    height: 7em;
-}
-
 
 .dropdown-top-button {
     width: 25vw;
@@ -129,21 +111,17 @@ NAV BAR
 MIDDLE AREA
 */
 
-
 .section {
     margin-top: 5vh;
 }
 
-.intro-image {
-    width: auto;
-    height: 100vh;
-    display: flex; flex-wrap: ;
-    justify-content: center;
-    font; color: #141010; font-weight: bold;
-    align-items: center;
-    overflow:visible
-    text-align: center;
- 
+.image-intro{
+}
+.rounded-corners {
+    border-radius: 95px 95px 95px 95px;
+    position: relative;
+    left: 28%
+   
 }
 
 .intro h1 {
