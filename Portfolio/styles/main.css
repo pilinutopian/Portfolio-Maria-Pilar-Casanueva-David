@@ -115,12 +115,12 @@ MIDDLE AREA
     margin-top: 5vh;
 }
 
-.image-intro{
-}
 .rounded-corners {
     border-radius: 95px 95px 95px 95px;
-    position: relative;
-    left: 28%
+    max-width: 100%;
+    height: auto;
+    display: table;
+    margin: 0 auto;
    
 }
 
